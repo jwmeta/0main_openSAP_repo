@@ -128,7 +128,7 @@ var bundleResources = function () {
     var sLocale = sap.ui.getCore().getConfiguration().getLanguage();
     var oBundle = jQuery.sap.resources({
         url: "i18n/i18n.properties",
-        locale: sLocale
+        locale: "en_US.UTF-8"
     });
     document.title = oBundle.getText("appTitle");
 };
